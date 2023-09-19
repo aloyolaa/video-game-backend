@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/video_game_db?false&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: hashira2002
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: 'validate'
